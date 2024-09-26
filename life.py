@@ -6,7 +6,7 @@ def read_grid(filename):
         w, h = map(int, f.readline().split(maxsplit=1))
         
         for y in range(h+2):
-            grid.append([0]*(w+2))
+            grid.append(bitarray(w+2))
         
         for no, line in enumerate(f):
             try:
@@ -28,7 +28,7 @@ def tick(grid):
 
     nextgrid = []
     for y in range(h+2):
-        nextgrid.append([0]*(w+2))
+        nextgrid.append(bitarray(w+2))
 
     for y, row in enumerate(grid[1:-1]):
         for x, cell in enumerate(row[1:-1]):
