@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier
+_commit: 0.6.1
+_src_path: https://github.com/nlesc/python-template.git
+copyright_holder: Jazib Imran
+email: jazibcheema5@gmail.com
+full_name: Jazib Imran
+github_organization: spaceie08
+keywords: gof,optimization,profiling,refactoring
+license: GNUv3
+package_name: life
+package_short_description: This is the implementation of Game of Life which implements
+    the Game of life game. The package takes the intial grid as text file and gives
+    the output of nth game of life specified by the user
+template_profile: minimum
+version: 0.1.0
